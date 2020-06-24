@@ -1,4 +1,4 @@
-let minutes = 1.5;
+let minutes = .2;
 let time = minutes * 6000;
 let status = 1;
 
@@ -16,7 +16,7 @@ setInterval(flickerTimer,100);
 function flickerTimer(){
     
     if(time < 1000 ){
-        if(opacity == 100 && time > 10)
+        if(opacity == 100 && time > 10 && status)
             opacity = 0;
         else
             opacity = 100
