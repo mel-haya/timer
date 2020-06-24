@@ -1,4 +1,4 @@
-let minutes = .2;
+let minutes = 1.5;
 let time = minutes * 6000;
 let status = 1;
 
