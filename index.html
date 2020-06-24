@@ -9,18 +9,20 @@
 </head>
 <body>
     <div id="countdown_timer">
-        <div id="counter">[
-        <span class="timer_element" id="minutes">01</span>:
-        <span class="timer_element" id="seconds">35</span>:
-        <span class="timer_element" id="milliseconds">58</span>
+        <div id="counter">[<span id="innerCounter">
+        <span class="timer_element" id="minutes">02</span>:
+        <span class="timer_element" id="seconds">00</span>:
+        <span class="timer_element" id="milliseconds">00</span></span>
         ]</div>
         <div id="disarm">
-            <div id="message">Enter the code to diarm the bomb</div>
+            <div id="message">Enter the code to disarm the bomb</div>
             <label>></label>
-            <input type="password" id="input">
+            <input type="password" id="input" onchange="checkPass()">
         </div>
         <div id="result">ACCESS DENIED</div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+    <script src="index.js"></script>
     
 </body>
 </html>

@@ -44,24 +44,20 @@ body{
     display: inline-block;
     outline: none;
     color: white;
-    background: #aaaaaa00;
-    font-size: 30px;
+    background-color: transparent;
+    font-size: 40px;
     border: none;
-    /*font-family: 'VT323', monospace;*/
-}
-#result{
-    text-align: center;
-    margin-top: 20px;
-}
-#input {
-	font-family: 'password';
+    font-family: 'password';
 	font-style: normal;
 	font-weight: normal;
 	speak: none;
-
-	/* For safety - reset parent styles, that can break glyph codes*/
 	font-variant: normal;
 	text-transform: none;
 
 	letter-spacing: 2px;
+}
+#result{
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0%;
 }
