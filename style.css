@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'password';
+  src: url('font/password.eot?60799214');
+  src: url('font/password.eot?60799214#iefix') format('embedded-opentype'),
+       url('font/password.woff2?60799214') format('woff2'),
+       url('font/password.woff?60799214') format('woff'),
+       url('font/password.ttf?60799214') format('truetype'),
+       url('font/password.svg?60799214#password') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin : 0px;
+    padding : 0px
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(224,29,29,1) 0%, rgba(96,2,2,1) 100%);
+}
+#countdown_timer{
+    font-size: 120px;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    color: white;
+}
+
+.timer_element{
+    display: inline-block;
+    width: 90px;
+}
+#counter{
+    text-align: center;
+}
+#disarm{
+    font-size: 60px;
+}
+#input{
+    width: 90%;
+    display: inline-block;
+    outline: none;
+    color: white;
+    background: #aaaaaa00;
+    font-size: 30px;
+    border: none;
+    /*font-family: 'VT323', monospace;*/
+}
+#result{
+    text-align: center;
+    margin-top: 20px;
+}
+#input {
+	font-family: 'password';
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+
+	/* For safety - reset parent styles, that can break glyph codes*/
+	font-variant: normal;
+	text-transform: none;
+
+	letter-spacing: 2px;
+}
